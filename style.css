@@ -1,0 +1,142 @@
+body{
+    background-image: url("https://i.ytimg.com/vi/MlThQTo6D8A/maxresdefault.jpg");
+    background-size: cover;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    position: relative;
+    top: 120px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+#imgg1{
+    width: 390px;
+    position: relative;
+    top: 5px;
+    border-radius: 50%;
+    animation: rotation 10s infinite linear;    
+}
+#previous{
+    position: relative;
+    top: 5px;
+    border-radius: 50%;
+}
+#playb{
+    width: 390px;
+    position: relative;
+    top: 5px;
+    border-radius: 50%;
+}
+#next{
+    position: relative;
+    top: 5px;
+    border-radius: 50%;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+audio{
+    position: relative;
+    bottom: 150px;
+    left: 200px;
+    width: 50%;
+    display: none;
+}
+audio::-webkit-media-controls-panel{
+    background-color: rgb(47, 189, 255);
+}
+.im2{
+    display: none;
+}
+.im3{
+    display: none;
+}
+audio::-webkit-media-controls-mute-button{
+    display: none;
+}
+audio::-webkit-media-controls-time-remaining-display{
+    display: none;
+}
+audio::-webkit-media-controls-timeline{
+    display: none;
+}
+audio::-webkit-media-controls-current-time-display{
+    display: none;
+}
+audio::-webkit-media-controls-volume-slider{
+    display: none;
+}
+.icons{
+    height: 30px;
+    width: 30px;
+    
+}
+.content{
+    height: 50px;
+    width: 310px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 30px;
+    position: relative;
+    bottom: 60px;
+}
+.icons:hover{
+    cursor: pointer;
+}
+#previous{
+    position: relative;
+    right: 50px;
+}
+#next{
+    position: relative;
+    left: 50px;
+}
+#playb{
+    height: 35px;
+    width: 35px;
+}
+#playb:hover{
+    color: blueviolet;
+}
+#previous:hover{
+    height: 35px;
+    width: 35px;
+}
+#next:hover{
+    height: 35px;
+    width: 35px;
+}
+#previous:active{
+    height: 30px;
+    width: 30px;
+}
+#next:active{
+    height: 30px;
+    width: 30px;
+}
+#info{
+    position: relative;
+    top: 150px;
+}
+#info{
+    color:rgb(0, 0, 0);
+    font-style: italic;
+    position: relative;
+    top: 110px;
+    opacity: 0.8;
+    height: 40px;
+    width: 360px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.8));
+}
+#bar{
+    width: 250px;
+}
